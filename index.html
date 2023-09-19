@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JETSON</title>  <!-- Change the title -->
+    <link rel="icon" href="ASSETS/Jetson_pfp_light.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {"50":"#faf5ff","100":"#f3e8ff","200":"#e9d5ff","300":"#d8b4fe","400":"#c084fc","500":"#a855f7","600":"#9333ea","700":"#7e22ce","800":"#6b21a8","900":"#581c87","950":"#3b0764"}
+      }
+    },
+    fontFamily: {
+      'body': [
+    'Open Sans', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Open Sans', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
+    }
+  }
+}
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body>
+<!-- Add your blocks here -->
+
+<!-- HEADER STARTS -->
+<header>
+    <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 flex justify-center">
+        <div class="flex flex-wrap justify-between items-center text-center mx-auto max-w-screen-xl">
+            <img src="ASSETS/Jetson_logo_purple_simplified.png" class="mt-5 h-6 sm:h-9" />
+        </div>
+    </nav>
+</header>
+<!-- HEADER ENDS -->
+
+<!-- HERO STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-7 xl:col-span-8">
+          <h1 class="max-w-2xl mb-4 text-4xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Get Advertising Automation.</h1>
+          <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Get Jetson.</h1>
+          <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Jetson automates your ad-operations<br>so you can do more of what you do best.</p>
+          <form action="#" class="">
+              <div class="flex items-center mb-3">
+                  <div class="relative w-auto mr-3">
+                      <label for="member_email" class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+                      <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                          <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                      </div>
+                      <input class="block md:w-96 w-full p-3 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" name="member[email]" id="member_email" required="">
+                  </div>
+                  <div>
+                      <input type="submit" value="Get Started" class="px-5 py-3 text-sm font-medium text-center text-white rounded-lg cursor-pointer bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" name="member_submit" id="member_submit">
+                  </div>
+              </div>
+          </form>
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-5 xl:col-span-4 lg:flex">
+          <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mobile-app.svg" alt="phone illustration">
+      </div>                
+  </div>
+</section>
+<!-- HERO FINISHES -->
+
+<!-- CONTENT STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">What is Jetson Advertising Intelligence?</h2>
+      </div>
+      <div class="mt-4 font-light text-gray-500 sm:text-lg lg:mt-0 dark:text-gray-400">
+          <p class="mb-4">Jetson is an advertising automation platform for agencies, brands and AdTech.</p>
+          <p>Companies use Jetson to slash operating costs for their campaign setup, management and optimization across media and creative by up to 50%.</p>
+      </div>
+  </div>
+</section>
+
+<!-- CONTENT FINISHES -->
+
+<!-- HOW IT WORKS STARTS -->
+
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="text-center text-gray-900">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 lg:text-5xl dark:text-white">How it works</h2>
+          <div class="mt-4 font-light text-gray-500 items-center sm:text-lg lg:mt-0 dark:text-gray-400">
+          <p class="mb-4">You define the strategy, Jetson executes on each of the core areas of Ad Operations at a fraction of the cost.</p>
+      </div>
+      <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-3">
+          <div class="flex mb-2 md:flex-col md:mb-0">
+              <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_a_bright_purple_and_white_poster_scene_with_a_60-70_clean__0e601dff-aa84-4fb8-b695-0b1bf8a648fe.png" alt="office image" />
+              <div>
+                  <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Media Intelligence</h3>
+                  <p class="text-gray-500 dark:text-gray-400">Jetson sets up media line items in your DSP, monitors delivery and executes optimization strategies.</p>
+              </div>
+          </div>
+          <div class="flex mb-2 md:flex-col md:mb-0">
+              <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_a_bright_purple_and_white_poster_scene_with_a_60-70_clean__21ab2834-47fb-437a-a437-4cd3ed52ac65 (1).png" alt="office image 2" />
+              <div>
+                  <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Creative Intelligence</h3>
+                  <p class="text-gray-500 dark:text-gray-400">Jetson takes existing creative assets and builds versions for testing across channels and always aligned with brand guidelines.</p>
+              </div>
+          </div>
+          <div class="flex md:flex-col">
+              <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_a_bright_purple_and_white_poster_scene_with_a_60-70_clean__e9ad0eea-81b7-4282-98be-ad1da5b3e3e2.png" alt="office image 3" />
+              <div>
+                  <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Outcome Intelligence</h3>
+                  <p class="text-gray-500 dark:text-gray-400">Jetson provides regular actionable reports on media and creative performance including suggested performance enhancements.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS FINISHES -->
+
+
+<!-- FAQ STARTS -->
+
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+      <h2 class="mb-6 lg:mb-8 text-3xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Some frequently asked questions</h2>
+      <div class="mx-auto max-w-screen-md">
+          <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+              <h2 id="accordion-flush-heading-1">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                      <span>Is Jetson Advertising Intelligence an AI?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                      <p class="mb-2 text-gray-500 font-bold dark:text-gray-400">We're glad you asked.  And, Yes.</p>
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">Jetson Advertising Intelligence is a 'human-in-the-loop' AI platform for advertising, offering the seamless execution of an AI with the quality assurance and flexibility of a human team.</p>
+                  </div>
+              </div>
+              <h2 id="accordion-flush-heading-2">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                      <span>What can I automate with Jetson?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 font-bold dark:text-gray-400">You can automate almost any advertising function with Jetson.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Jetson is a customizable set of tools that can automate any of the key functions in executing your ad buys, from creative versioning to line-item setup to reporting and optimization.</p>
+                </div>
+              </div>
+              <h2 id="accordion-flush-heading-3">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                      <span>Can Jetson help improve our profitability?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 font-bold dark:text-gray-400">Yes.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Jetson is designed to help agencies, brands and AdTech companies dramatically reduce costs across the advertising value chain.  Our clients see a 30% to 50% reduction in expenses where they apply Jetson to their operations.</p>
+                </div>
+                  </div>
+              </div>
+              <h2 id="accordion-flush-heading-4">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+                      <span>How can my business get Jetson?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 font-bold dark:text-gray-400">It all starts with a conversation.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Our team of ad automation experts will work with you to build the right ad automation tools for your business.  Our veteran team brings deep experience in applying automation and Machine Learning to advertsiing and will help design the right automation process for your advertising operations.</p>
+                </div>
+              </div>
+          </div> 
+      </div>               
+  </div>
+</section>
+
+<!-- FAQ FINISHES -->
+
+
+<!-- EMAIL SIGN-UP STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+      <div class="mx-auto max-w-screen-md text-center">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Get Jetson to automate</br>your ad operations.</h2>
+        </br>
+          <form action="#" class="mx-auto max-w-screen-sm">
+              <div class="flex items-center mb-3">
+                  <div class="relative mr-3 w-full">
+                      <label for="member_email" class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+                      <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                          <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                      </div>
+                      <input class="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" name="member[email]" id="member_email" required="">
+                  </div>
+                  <div>
+                      <input type="submit" value="Get Started" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg cursor-pointer bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" name="member_submit" id="member_submit">
+                  </div>
+              </div>
+             
+          </form>
+      </div>
+  </div>
+</section>
+<!-- EMAIL SIGN-UP FINISHES -->
+
+
+<!-- FOOTER STARTS  -->
+<footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <div class="mx-auto max-w-screen-xl text-center">
+    </nav>
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 by Jetson Advertising Intelligence</span>
+  </div>
+</footer>
+
+<!-- FOOTER FINISHES  -->
+
+<!-- Closing blocks -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>
